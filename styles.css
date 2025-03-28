@@ -1,0 +1,102 @@
+
+.logo {
+    position: relative;
+  }
+  
+  .logo-dot {
+    position: absolute;
+    font-size: 2rem;
+    color: #00c8e6;
+    font-weight: bold;
+  }
+
+
+  
+  /* Navbar styles */
+  .nav-link {
+    transition: all 0.3s ease;
+  }
+  
+  .bg-light {
+    background-color: #f2f2f2 !important;
+  }
+  
+  .bg-primary {
+    background-color: #3478b9 !important;
+  }
+  
+  .btn-success {
+    background-color: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+  }
+  
+  .btn-success:hover {
+    background-color: #45a049 !important;
+    border-color: #45a049 !important;
+  }
+  .navbar {
+    background-color: white !important;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: #c4bebe !important;
+    border-radius: 5px; 
+  }
+
+
+  
+
+  /* Bike button styles */
+  .bike-button {
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .bike-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+  
+  .bike-button:hover {
+    transform: scale(1.02);
+  }
+  
+
+
+  /* Footer styles */
+  footer a:hover {
+    text-decoration: underline !important;
+  }
+
+
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .social-icons {
+      margin-top: 1rem;
+      border-top: 1px solid #dee2e6;
+      padding-top: 1rem;
+    }
+  }
+  
+
+
+
+  /* Utility classes */
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .hover-underline:hover {
+    text-decoration: underline !important;
+  }
+  
